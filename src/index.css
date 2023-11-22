@@ -1,0 +1,10 @@
+/* For dark mode */
+.dark-mode ::placeholder {
+    color: white;
+  }
+  
+  /* For light mode */
+  .light-mode ::placeholder {
+    color: black;
+  }
+  
