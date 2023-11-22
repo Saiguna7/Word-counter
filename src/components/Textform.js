@@ -22,13 +22,13 @@ export default function Textform(props) {
          props.showAlert("Your text is copied to clipboard!","success")
     }
     const handlecpyExtraspaces=()=>{
-         let newText=text.split(/\s+/).filter(Boolean).join(" ");
+         let newText=text.split(/[\s+]+/).filter(Boolean).join(" ");
          setText(newText)
          navigator.clipboard.writeText(newText);
          props.showAlert("Your text is copied to clipboard without extra spaces!","success")
     }
     const handleExtraspaces=()=>{
-      let newText=text.split(/[ ]+/);
+      let newText=text.split(/[\s+/]+/);
       setText(newText.join(" "))
       props.showAlert("Extra spaces are removed!","success")
     }
