@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/main.15c79616.css","mappings":"AACA,yBACI,UACF,CAGA,0BACE,UACF","sources":["index.css"],"sourcesContent":["/* For dark mode */\r\n.dark-mode ::placeholder {\r\n    color: white;\r\n  }\r\n  \r\n  /* For light mode */\r\n  .light-mode ::placeholder {\r\n    color: black;\r\n  }\r\n  "],"names":[],"sourceRoot":""}
